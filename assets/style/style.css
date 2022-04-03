@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Code Pro', monospace;
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #83c6fca8;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: rgb(14, 14, 14);
+}
+
+
+/* Header */
+
+header{
+    max-width: 1000px;
+    min-width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #141b25d8;
+}
+
+.menu{
+    margin: 0 auto;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    list-style: none;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu ul a{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #83c6fca8;
+    padding: 15px;
+    border: 1px solid rgba(168, 168, 168, 0.459);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+.menu ul a:hover{
+    transition: all 1s;
+    color: rgb(255, 255, 255);
+    background-color: #42648d8e;
+}
+
+.menu ul a li{
+    font-size: 22px;
+    margin-left: 90px;
+    margin-right: 90px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 50%;
+    left: 30%;
+    right: 30%;
+    position: absolute;
+    font-size: 25px;
+}
+
+.about p{
+    color: #7e7e7e;
+}
+
+.about h1{
+    color: #83c6fca8;
+}
+
+.about h2{
+    color: #a5fc7a9c;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
+/* About - me */
+
+
+main{
+    max-width: 1000px;
+    min-width: 300px;
+    height: 100%;
+    margin: auto;
+    padding: 10px 60px 100px 60px;
+    background-color: #141b25d8;
+    position: relative;
+}
+
+
+main h2{
+    font-size: 25px;
+    color: #83c6fca8;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about-me{
+    width: 50%;
+    margin: auto;
+    color: darkgrey;
+    background: #161c28;
+    padding: 35px;
+    border: 3px solid #131923;
+    margin-top: 20px;
+    text-align: center;
+    text-align: justify;
+}
+
+
+.about-me p{
+    padding: 10px;
+}
+
+.about-me p a{
+    text-decoration: none;
+    color: rgba(37, 102, 224, 0.76);
+}
+
+.about-me p a:hover{
+    transition: all 0.5s;
+    color: rgba(7, 156, 167, 0.596);
+}
+
+footer{
+    margin: auto;
+    height: 100%;
+    max-width: 1000px;
+    min-width: 300px;
+    background: #83c6fc6c;
+    color: darkgrey;
+    text-align: center;
+    padding: 8px 0px 10px;
+}
+
+footer p a{
+    color: #a5fc7ac2;
+    text-decoration: none;
+}
+
+footer p a:hover{
+    transition: all 0.5s;
+    color: #03947c;
+}
+
